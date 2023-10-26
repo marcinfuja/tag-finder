@@ -1,5 +1,4 @@
-const OPENAI_KEY = (process.env.NEXT_PUBLIC_OPENAI_KEY =
-  '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');
+const OPENAI_KEY = process.env.NEXT_PUBLIC_OPENAI_KEY;
 
 const { Configuration, OpenAIApi } = require('openai');
 const path = require('path');
