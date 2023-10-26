@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    OPENAI_KEY: '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',
+    OPENAI_KEY: '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',
   },
 };
 

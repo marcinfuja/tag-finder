@@ -1,4 +1,4 @@
-const OPENAI_KEY = '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';
+const OPENAI_KEY = process.env.OPENAI_KEY;
 
 const { Configuration, OpenAIApi } = require('openai');
 const path = require('path');
