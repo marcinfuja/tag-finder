@@ -2,7 +2,7 @@ import { defaultSystemRole } from '@/app/prompts/systemRole';
 import systemValidationPrompts from '@/app/prompts/systemValidationPrompts';
 import { gptConfiguration } from './utils';
 
-const OPENAI_KEY = process.env.OPENAI_KEY;
+const OPENAI_KEY = process.env.NEXT_PUBLIC_OPENAI_KEY;
 
 export default async function getTagsForMultiplePrompts() {
   const validationPrompts = [...systemValidationPrompts];

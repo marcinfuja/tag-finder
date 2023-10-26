@@ -1,7 +1,7 @@
 import { defaultSystemRole } from '@/app/prompts/systemRole';
 import { gptConfiguration } from './utils';
 
-const OPENAI_KEY = process.env.OPENAI_KEY;
+const OPENAI_KEY = process.env.NEXT_PUBLIC_OPENAI_KEY;
 const messages = [...defaultSystemRole];
 let message = '';
 
