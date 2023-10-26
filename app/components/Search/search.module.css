@@ -1,0 +1,88 @@
+.search {
+  display: block;
+  width: 600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.search form {
+  width: 100%;
+  z-index: 10;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.queryArea {
+  width: 100%;
+  height: 130px;
+  border: 0;
+  background: rgba(57, 144, 48, 0.1);
+  padding: 20px;
+  outline: 0;
+}
+
+.btnContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0 10px;
+}
+
+.selectAndResetBtn {
+  padding: 10px 15px;
+  font-size: 12px;
+  background: rgba(5, 118, 113, 0.8);
+  letter-spacing: 0.5px;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.selectAndResetBtn:disabled {
+  background: rgba(5, 118, 113, 0.2);
+}
+
+.searchBtn {
+  padding: 12px 17px;
+  font-size: 12px;
+  background: rgba(24, 116, 13, 0.8);
+  letter-spacing: 0.5px;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.tag {
+  padding: 4px 6px;
+  font-size: 10px;
+  background: rgba(240, 240, 240, 0.8);
+  letter-spacing: 0.5px;
+  color: rgba(45, 45, 45, 1);
+  outline: 0;
+  border: 0;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px 0 20px;
+}
+
+.prompt {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  color: black;
+  font-size: 12px;
+}
